@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(0deg, #f0fdfa 20%, #0eb582);
+}
+
+.container {
+    max-width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25em;
+}
+
+
+/* ------------------------------------------ card 1 ----------------------------------*/
+
+.container:hover .card1 {
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+.container .card1 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #0eb582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin: 50px 20px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card1:hover {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.container .card1:hover:after {
+    transform: scaleY(1.10);
+    background: #0eb582;
+}
+
+.container .card1:hover {
+    z-index: 1;
+}
+
+.container .card1 .content8 {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card1:hover .content8 {
+    color: #fff;
+}
+
+.container .card1 .content8 h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.container .card1 .content8 p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.container .card1 .content8 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #062a79;
+    text-decoration: none;
+    border: 1px solid #062a79;
+}
+
+.container .card1:hover .content8 a {
+    background: #062a79;
+    color: #fff;
+}
+
+.container .card1 .content8 a .span {
+    font-size: 1.5em;
+}
+
+.container .card1:hover:before {
+    background: #0eb582;
+    transform: scaleY(1.15);
+    box-shadow: 15px 15px 15px #062a79;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card1:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: url(../images/com-gif1.gif) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    border: 0.1rem 0 0.1 0.1 solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card1:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/com-gif1.gif) no-repeat center center;
+    z-index: 1;
+    transition: 0.5s;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+
+/*____________________________________________________________________________*/
+
+
+/*----------------- card2 ------------------------------------------*/
+
+.container:hover .card2 {
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+.container .card2 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #0eb582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin: 50px 20px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card2:hover {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.container .card2:hover:after {
+    transform: scaleY(1.10);
+    background: #0eb582;
+}
+
+.container .card2:hover {
+    z-index: 1;
+}
+
+.container .card2 .content8 {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card2:hover .content8 {
+    color: #fff;
+}
+
+.container .card2 .content8 h2 {
+    font-size: 3em;
+    color: #062a79;
+}
+
+.container .card2 .content8 p {
+    font-size: 2em;
+    color: #062a79;
+}
+
+.container .card2 .content8 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #062a79;
+    text-decoration: none;
+    border: 1px solid #062a79;
+}
+
+.container .card2:hover .content8 a {
+    background: #062a79;
+    color: #fff;
+}
+
+.container .card2 .content8 a .span {
+    font-size: 1.5em;
+}
+
+.container .card2:hover:before {
+    background: #0eb582;
+    transform: scaleY(1.15);
+    box-shadow: 15px 15px 15px #062a79;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: url(../images/com-gif2.gif) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    border: 0.1rem 0 0.1 0.1 solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card2:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/com-gif2.gif) no-repeat center center;
+    z-index: 1;
+    transition: 0.5s;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+
+/*____________________________________________________________________________*/
+
+
+/* ------------------------------------------ card 3 ----------------------------------*/
+
+.container:hover .card3 {
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+.container .card3 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #0eb582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin: 50px 20px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card3:hover {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.container .card3:hover:after {
+    transform: scaleY(1.10);
+    background: #0eb582;
+}
+
+.container .card3:hover {
+    z-index: 1;
+}
+
+.container .card3 .content8 {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card3:hover .content8 {
+    color: #fff;
+}
+
+.container .card3 .content8 h2 {
+    font-size: 3em;
+    color: #062a79;
+}
+
+.container .card3 .content8 p {
+    font-size: 1.5em;
+    color: #062a79;
+}
+
+.container .card3 .content8 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #062a79;
+    text-decoration: none;
+    border: 1px solid #062a79;
+}
+
+.container .card3:hover .content8 a {
+    background: #062a79;
+    color: #fff;
+}
+
+.container .card3 .content8 a .span {
+    font-size: 1.5em;
+}
+
+.container .card3:hover:before {
+    background: #0eb582;
+    transform: scaleY(1.15);
+    box-shadow: 15px 15px 15px #062a79;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card3:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: url(../images/com-gif3.gif) center center;
+    background-size: cover;
+    z-index: 1;
+    border: 0.1rem 0 0.1 0.1 solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card3:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/com-gif3.gif) center center;
+    z-index: 1;
+    transition: 0.5s;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+
+/*____________________________________________________________________________*/
+
+
+/* ------------------------------------------ card 4 ----------------------------------*/
+
+.container:hover .card4 {
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+.container .card4 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #0eb582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin: 50px 20px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card4:hover {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.container .card4:hover:after {
+    transform: scaleY(1.10);
+    background: #0eb582;
+}
+
+.container .card4:hover {
+    z-index: 1;
+}
+
+.container .card4 .content8 {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card4:hover .content8 {
+    color: #fff;
+}
+
+.container .card4 .content8 h2 {
+    font-size: 3em;
+    color: #062a79;
+}
+
+.container .card4 .content8 p {
+    font-size: 1.5em;
+    color: #062a79;
+}
+
+.container .card4 .content8 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #062a79;
+    text-decoration: none;
+    border: 1px solid #062a79;
+}
+
+.container .card4:hover .content8 a {
+    background: #062a79;
+    color: #fff;
+}
+
+.container .card4 .content8 a .span {
+    font-size: 1.5em;
+}
+
+.container .card4:hover:before {
+    background: #0eb582;
+    transform: scaleY(1.15);
+    box-shadow: 15px 15px 15px #062a79;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card4:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: url(../images/com-gif4.gif) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    border: 0.1rem 0 0.1 0.1 solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card4:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/com-gif4.gif) no-repeat center center;
+    z-index: 1;
+    transition: 0.5s;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+
+/*____________________________________________________________________________*/
+
+
+/* ------------------------------------------ card 5 ----------------------------------*/
+
+.container:hover .card5 {
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+.container .card5 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #0eb582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin: 50px 20px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card5:hover {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.container .card5:hover:after {
+    transform: scaleY(1.10);
+    background: #0eb582;
+}
+
+.container .card5:hover {
+    z-index: 1;
+}
+
+.container .card5 .content8 {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card5:hover .content8 {
+    color: #fff;
+}
+
+.container .card5 .content8 h2 {
+    font-size: 3em;
+    color: #062a79;
+}
+
+.container .card5 .content8 p {
+    font-size: 1.5em;
+    color: #062a79;
+}
+
+.container .card5 .content8 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #062a79;
+    text-decoration: none;
+    border: 1px solid #062a79;
+}
+
+.container .card5:hover .content8 a {
+    background: #062a79;
+    color: #fff;
+}
+
+.container .card5 .content8 a .span {
+    font-size: 1.5em;
+}
+
+.container .card5:hover:before {
+    background: #0eb582;
+    transform: scaleY(1.15);
+    box-shadow: 15px 15px 15px #062a79;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: url(../images/com-gif5.gif) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    border: 0.1rem 0 0.1 0.1 solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card5:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/com-gif5.gif) center;
+    z-index: 1;
+    transition: 0.5s;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+
+/*____________________________________________________________________________*/
+
+
+/* ------------------------------------------ card 6 ----------------------------------*/
+
+.container:hover .card6 {
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+.container .card6 {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #0eb582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 60px;
+    margin: 50px 20px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card6:hover {
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+.container .card6:hover:after {
+    transform: scaleY(1.10);
+    background: #0eb582;
+}
+
+.container .card6:hover {
+    z-index: 1;
+}
+
+.container .card6 .content8 {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.container .card6:hover .content8 {
+    color: #fff;
+}
+
+.container .card6 .content8 h2 {
+    font-size: 3em;
+    color: #062a79;
+}
+
+.container .card6 .content8 p {
+    font-size: 1.5em;
+    color: #062a79;
+}
+
+.container .card6 .content8 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #062a79;
+    text-decoration: none;
+    border: 1px solid #062a79;
+}
+
+.container .card6:hover .content8 a {
+    background: #062a79;
+    color: #fff;
+}
+
+.container .card5 .content8 a .span {
+    font-size: 1.5em;
+}
+
+.container .card6:hover:before {
+    background: #0eb582;
+    transform: scaleY(1.15);
+    box-shadow: 15px 15px 15px #062a79;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card6:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: url(../images/com-gif6.gif) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    border: 0.1rem 0 0.1 0.1 solid #062a79;
+    border-radius: 10px;
+}
+
+.container .card6:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/com-gif6.gif) center;
+    z-index: 1;
+    transition: 0.5s;
+    border: 0.1rem solid #062a79;
+    border-radius: 10px;
+}
+
+
+/*____________________________________________________________________________*/

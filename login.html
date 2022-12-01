@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" type="png" href="images/online-tutorials.png">
+    <title>Login SignUp</title>
+    <link rel="stylesheet" type="text/css" href="..//LI College/css/loginStyle.css">
+    <link rel="stylesheet" type="text/css" href="..//LI College/css/style.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- It will redirect to the Home Page after submitting the form -->
+    <script>
+        $(document).ready(function() {
+            $("form").submit(function() {
+                alert("Great Job !");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+
+    <!-- header section starts-->
+
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-lightbulb"></i> LI college </a>
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a id="click" href="home.html"> <i class="fas fa-home"></i> Home <i class="fas fa-caret-down"></i></a>
+            <a href="about.html"><i class="fas fa-question-circle"></i> about</a>
+            <a href="courses.html"> <i class="fas fa-book"></i> courses</a>
+            <a href="contact.html"><i class="fas fa-phone"></i> contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn8"></div>
+            <button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Log In</button>
+            <button type="button" class="toggle-btn" id="reg" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+            <img src="images/fb2.png">
+            <img src="images/insta2.png">
+            <img src="images/tt2.png">
+        </div>
+
+        <!-- Login Form -->
+        <form id="login" class="input-group" action="home.html">
+            <div class="inp">
+                <img src="images/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88%; border:none;" required="required">
+            </div>
+            <div class="inp">
+                <img src="images/password.png"><input type="password" id="password" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
+            </div>
+            <input type="checkbox" class="check-box">Remember Password
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+
+
+
+        <!-- Registration Form -->
+        <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="Full Name" required="required">
+            <input type="email" class="input-field" placeholder="Email Address" required="required">
+            <input type="password" class="input-field" placeholder="Create Password" name="psame" required="required">
+            <input type="password" class="input-field" placeholder="Confirm Password" name="psame" required="required">
+            <input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">I agree to the Terms & Conditions
+            <button type="submit" id="btnSubmit" class="submit-btn reg-btn">Register</button>
+        </form>
+    </div>
+
+
+    <div class="canvas">
+        <h1 id="h1">Color Scheme Switcher</h1>
+        <span class="button2" id="grey"></span>
+        <span class="button2" id="white"></span>
+        <span class="button2" id="blue"></span>
+        <span class="button2" id="yellow"></span>
+        <h2>Try clicking on one of the colors above <span>to change the background color of this page!</span></h2>
+    </div>
+
+
+
+
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  link -->
+    <script src="js/script.js"></script>
+
+    <!-- JQuery -->
+    <script src="js/jquery.js"></script>
+
+    <script>
+        const buttons = document.querySelectorAll('.button2');
+        const body = document.querySelector('body');
+
+        console.log(buttons);
+
+        buttons.forEach(function(button) {
+            button.addEventListener('click', function(e) {
+                console.log(e.target);
+                if (e.target.id === 'grey') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if (e.target.id === 'white') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if (e.target.id === 'blue') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if (e.target.id === 'yellow') {
+                    body.style.backgroundColor = e.target.id;
+                }
+            })
+        })
+    </script>
+
+
+
+
+
+
+    <script type="text/javascript" src=".//js/script2.js"></script>
+</body>
+
+</html>
